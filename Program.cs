@@ -344,16 +344,16 @@ class Program
     }
 
     //----- Portugol -----
-    // algoritmo "RecalculoBoleto"
+    // algoritmo "<RecalculoBoleto>"
     // data vencimentoOriginal, vencimentoNovo, dataAtual
     // real valorBoleto, valorRecalculado, valorJuros
     // inteiro numDias, diasUteis
 
-    // escrever("Informe a data de vencimento original: ")
+    // mostrar("Informe a data de vencimento original: ")
     // ler(vencimentoOriginal)
-    // escrever("Informe a data de vencimento nova (data de pagamento): ")
+    // mostrar("Informe a data de vencimento nova (data de pagamento): ")
     // ler(vencimentoNovo)
-    // escrever("Informe o valor do boleto: ")
+    // mostrar("Informe o valor do boleto: ")
     // ler(valorBoleto)
 
     // numDias <- vencimentoNovo - vencimentoOriginal
@@ -368,13 +368,13 @@ class Program
     //         diasUteis <- diasUteis + 1
     //         valorJuros <- valorJuros + 0.03
     //         dataAtual <- dataAtual + 1
-    //     fimse
+    //     fim-se
     //     numDias <- numDias - 1
-    // fim_enquanto
+    // fim-enquanto
 
     // valorRecalculado <- valorBoleto + valorJuros + 2
-    // escrever("Valor do boleto recalculado: R$ ", valorRecalculado)
-    // escrever("Valor total dos juros do período: R$ ", valorJuros)
+    // mostrar("Valor do boleto recalculado: R$ ", valorRecalculado)
+    // mostrar("Valor total dos juros do período: R$ ", valorJuros)
 
     // finalgoritmo
 }

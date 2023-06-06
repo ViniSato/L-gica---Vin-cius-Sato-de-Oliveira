@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\Lógica - Vinícius Sato de Oliveira\\Lógica - Vinícius Sato de Oliveira.csproj",
-      "projectName": "Lógica - Vinícius Sato de Oliveira",
-      "projectPath": "C:\\projetos\\Lógica - Vinícius Sato de Oliveira\\Lógica - Vinícius Sato de Oliveira.csproj",
+      "projectUniqueName": "C:\\projetos\\Lógica - Vinícius Sato de Oliveira\\LogicaViniciusSato.csproj",
+      "projectName": "LogicaViniciusSato",
+      "projectPath": "C:\\projetos\\Lógica - Vinícius Sato de Oliveira\\LogicaViniciusSato.csproj",
       "packagesPath": "C:\\Users\\vinicius.sato\\.nuget\\packages\\",
       "outputPath": "C:\\projetos\\Lógica - Vinícius Sato de Oliveira\\obj\\",
       "projectStyle": "PackageReference",
