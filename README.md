@@ -11,8 +11,11 @@ O código é escrito em C# e possui uma classe principal chamada Program. A fun�
 O código é dividido em quatro métodos principais, cada um responsável por uma funcionalidade específica:
 
 ExecutarExercicio1: Realiza o cálculo de desconto em veículos com base no ano e valor informados pelo usuário.
+
 ExecutarExercicio2: Calcula a média ponderada de notas de alunos com base em notas informadas pelo usuário e verifica se o aluno foi aprovado ou reprovado.
+
 ExecutarExercicio3: Verifica o tipo de triângulo com base em três valores informados pelo usuário.
+
 ExecutarExercicio4: Recalcula o valor de um boleto de pagamento com base na data de vencimento, data de pagamento e valor do boleto informados pelo usuário.
 
 Além dos métodos principais, o código também possui funções auxiliares para obter notas de alunos, calcular média ponderada, verificar se uma data é um dia útil, verificar se uma data é um final de semana, verificar se uma data é um feriado e obter o próximo dia útil.
