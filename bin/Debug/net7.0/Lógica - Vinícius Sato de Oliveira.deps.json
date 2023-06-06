@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Lógica - Vinícius Sato de Oliveira/1.0.0": {
+        "runtime": {
+          "Lógica - Vinícius Sato de Oliveira.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lógica - Vinícius Sato de Oliveira/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

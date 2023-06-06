@@ -1,0 +1,15 @@
+C:\projetos\Lógica - Vinícius Sato de Oliveira\bin\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.exe
+C:\projetos\Lógica - Vinícius Sato de Oliveira\bin\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.deps.json
+C:\projetos\Lógica - Vinícius Sato de Oliveira\bin\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.runtimeconfig.json
+C:\projetos\Lógica - Vinícius Sato de Oliveira\bin\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.dll
+C:\projetos\Lógica - Vinícius Sato de Oliveira\bin\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.pdb
+C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.csproj.AssemblyReference.cache
+C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.AssemblyInfoInputs.cache
+C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.AssemblyInfo.cs
+C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.csproj.CoreCompileInputs.cache
+C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.dll
+C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\refint\Lógica - Vinícius Sato de Oliveira.dll
+C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.pdb
+C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\Lógica - Vinícius Sato de Oliveira.genruntimeconfig.cache
+C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\ref\Lógica - Vinícius Sato de Oliveira.dll
