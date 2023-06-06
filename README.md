@@ -5,6 +5,7 @@ Documentação - Teste de Lógica :rocket:
 Este código implementa um programa com um menu de acesso e quatro funcionalidades diferentes. O usuário pode escolher uma opção do menu digitando o número correspondente. Cada opção do menu executa uma funcionalidade específica. As funcionalidades incluem cálculo de desconto em veículos, cálculo de média ponderada de notas de alunos, verificação de tipos de triângulo e recálculo de boletos de pagamento.
 
 :file_folder: Estrutura do Código
+
 O código é escrito em C# e possui uma classe principal chamada Program. A função Main é o ponto de entrada do programa, onde o menu de acesso e a seleção das funcionalidades são controlados por meio de um loop do-while.
 
 O código é dividido em quatro métodos principais, cada um responsável por uma funcionalidade específica:
