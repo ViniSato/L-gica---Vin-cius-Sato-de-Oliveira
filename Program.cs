@@ -14,42 +14,51 @@ class Program
             Console.WriteLine("3 - Exercício 3");
             Console.WriteLine("4 - Exercício 4");
             Console.WriteLine("0 - Sair");
-            Console.Write("Digite a opção desejada: ");
-            opcao = int.Parse(Console.ReadLine());
-
             Console.WriteLine();
+            Console.Write("Digite a opção desejada: ");
 
-            switch (opcao)
+            if (!int.TryParse(Console.ReadLine(), out opcao))
             {
-                case 1:
-                    ExecutarExercicio1();
-                    break;
-                case 2:
-                    ExecutarExercicio2();
-                    break;
-                case 3:
-                    ExecutarExercicio3();
-                    break;
-                case 4:
-                    ExecutarExercicio4();
-                    break;
-                case 0:
-                    Console.WriteLine("Saindo...");
-                    break;
-                default:
-                    Console.WriteLine("Opção inválida. Tente novamente.");
-                    break;
+                Console.WriteLine("Opção inválida. Tente novamente.");
+                Console.WriteLine();
+                opcao = -1;
+            }
+            else
+            {
+                Console.WriteLine();
+
+                switch (opcao)
+                {
+                    case 1:
+                        ExecutarExercicio1();
+                        break;
+                    case 2:
+                        ExecutarExercicio2();
+                        break;
+                    case 3:
+                        ExecutarExercicio3();
+                        break;
+                    case 4:
+                        ExecutarExercicio4();
+                        break;
+                    case 0:
+                        Console.WriteLine("Saindo...");
+                        break;
+                    default:
+                        Console.WriteLine("Opção inválida. Tente novamente.");
+                        Console.WriteLine();
+                        opcao = -1;
+                        break;
+                }
+
+                Console.WriteLine();
             }
 
-            Console.WriteLine();
         } while (opcao != 0);
     }
 
     static void ExecutarExercicio1()
     {
-        int carrosAte2000 = 0;
-        int totalCarros = 0;
-
         do
         {
             int ano;
@@ -87,32 +96,32 @@ class Program
 
             Console.WriteLine("Desconto: R$" + valorDesconto.ToString("F2"));
             Console.WriteLine("Valor a ser pago: R$" + valorFinal.ToString("F2"));
-
-            if (ano <= 2000)
-            {
-                carrosAte2000++;
-            }
-
-            totalCarros++;
+            Console.WriteLine();
 
             Console.Write("Deseja continuar calculando desconto? (S/N): ");
-        } while (char.ToUpper(Console.ReadKey().KeyChar) == 'S');
-        return;
+            char continuar = char.ToUpper(Console.ReadKey().KeyChar);
+            Console.WriteLine();
 
-        Console.WriteLine();
-        Console.WriteLine("Total de carros com ano até 2000: " + carrosAte2000);
-        Console.WriteLine("Total geral de carros: " + totalCarros);
+            if (continuar != 'S' && continuar != 'N')
+            {
+                Console.WriteLine("Opção inválida! Por favor, insira 'S' para continuar ou 'N' para sair.");
+                Console.WriteLine();
+            }
+
+            if (continuar != 'S')
+            {
+                break;
+            }
+
+        } while (true);
+        return;
     }
 
     static void ExecutarExercicio2()
     {
-        char continuar;
-
         do
         {
             int codigoAluno;
-            double nota1, nota2, nota3;
-
             bool codigoValido;
 
             do
@@ -135,11 +144,24 @@ class Program
             Console.WriteLine("Notas: " + string.Join(", ", notas));
             Console.WriteLine("Média: " + media.ToString("F2"));
             Console.WriteLine(media >= 6 ? "APROVADO" : "REPROVADO");
-
-            Console.Write("Deseja continuar calculando as médias? (S/N): ");
-            continuar = char.ToUpper(Console.ReadKey().KeyChar);
             Console.WriteLine();
-        } while (continuar == 'S');
+
+            Console.Write("Deseja continuar calculando desconto? (S/N): ");
+            char continuar = char.ToUpper(Console.ReadKey().KeyChar);
+            Console.WriteLine();
+
+            if (continuar != 'S' && continuar != 'N')
+            {
+                Console.WriteLine("Opção inválida! Por favor, insira 'S' para continuar ou 'N' para sair.");
+                Console.WriteLine();
+            }
+
+            if (continuar != 'S')
+            {
+                break;
+            }
+
+        } while (true);
         return;
     }
 
@@ -180,7 +202,6 @@ class Program
     {
         int a, b, c;
         string mens = string.Empty;
-        char continuar;
 
         do
         {
@@ -216,12 +237,25 @@ class Program
             }
 
             Console.WriteLine(mens);
+            Console.WriteLine();
             
             Console.Write("Deseja continuar verificando os triângulo? (S/N): ");
-            continuar = char.ToUpper(Console.ReadKey().KeyChar);
+            char continuar = char.ToUpper(Console.ReadKey().KeyChar);
             Console.WriteLine();
-        } while (continuar == 'S');
-        return;       
+
+            if (continuar != 'S' && continuar != 'N')
+            {
+                Console.WriteLine("Opção inválida! Por favor, insira 'S' para continuar ou 'N' para sair.");
+                Console.WriteLine();
+            }
+
+            if (continuar != 'S')
+            {
+                break;
+            }
+
+        } while (true);
+        return;    
     }
 
     static void ExecutarExercicio4()
@@ -230,7 +264,6 @@ class Program
         decimal valorBoleto, valorRecalculado, valorJuros;
         const decimal valorJurosPorDia = 0.03m;
         const decimal valorMulta = 2.00m;
-        char continuar;
 
         do
         {
@@ -305,11 +338,24 @@ class Program
 
         Console.WriteLine("Valor do boleto recalculado: R$" + valorRecalculado.ToString("F2"));
         Console.WriteLine("Valor total dos juros: R$" + valorJuros.ToString("F2"));
+        Console.WriteLine();
 
         Console.Write("Deseja continuar recalculando boletos? (S/N): ");
-        continuar = char.ToUpper(Console.ReadKey().KeyChar);
-        Console.WriteLine();
-        } while (continuar == 'S');
+        char continuar = char.ToUpper(Console.ReadKey().KeyChar);
+            Console.WriteLine();
+
+            if (continuar != 'S' && continuar != 'N')
+            {
+                Console.WriteLine("Opção inválida! Por favor, insira 'S' para continuar ou 'N' para sair.");
+                Console.WriteLine();
+            }
+
+            if (continuar != 'S')
+            {
+                break;
+            }
+
+        } while (true);
         return;
     }
 

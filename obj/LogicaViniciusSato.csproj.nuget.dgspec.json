@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\Lógica - Vinícius Sato de Oliveira\\LogicaViniciusSato.csproj": {}
+    "C:\\projetos\\test\\Teste_Logica_ViniciusSato\\LogicaViniciusSato.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\Lógica - Vinícius Sato de Oliveira\\LogicaViniciusSato.csproj": {
+    "C:\\projetos\\test\\Teste_Logica_ViniciusSato\\LogicaViniciusSato.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Lógica - Vinícius Sato de Oliveira\\LogicaViniciusSato.csproj",
+        "projectUniqueName": "C:\\projetos\\test\\Teste_Logica_ViniciusSato\\LogicaViniciusSato.csproj",
         "projectName": "LogicaViniciusSato",
-        "projectPath": "C:\\projetos\\Lógica - Vinícius Sato de Oliveira\\LogicaViniciusSato.csproj",
+        "projectPath": "C:\\projetos\\test\\Teste_Logica_ViniciusSato\\LogicaViniciusSato.csproj",
         "packagesPath": "C:\\Users\\vinicius.sato\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Lógica - Vinícius Sato de Oliveira\\obj\\",
+        "outputPath": "C:\\projetos\\test\\Teste_Logica_ViniciusSato\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinicius.sato\\AppData\\Roaming\\NuGet\\NuGet.Config",

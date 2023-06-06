@@ -13,3 +13,18 @@ C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\refint\LogicaV
 C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\LogicaViniciusSato.pdb
 C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\LogicaViniciusSato.genruntimeconfig.cache
 C:\projetos\Lógica - Vinícius Sato de Oliveira\obj\Debug\net7.0\ref\LogicaViniciusSato.dll
+C:\projetos\test\Teste_Logica_ViniciusSato\bin\Debug\net7.0\LogicaViniciusSato.exe
+C:\projetos\test\Teste_Logica_ViniciusSato\bin\Debug\net7.0\LogicaViniciusSato.deps.json
+C:\projetos\test\Teste_Logica_ViniciusSato\bin\Debug\net7.0\LogicaViniciusSato.runtimeconfig.json
+C:\projetos\test\Teste_Logica_ViniciusSato\bin\Debug\net7.0\LogicaViniciusSato.dll
+C:\projetos\test\Teste_Logica_ViniciusSato\bin\Debug\net7.0\LogicaViniciusSato.pdb
+C:\projetos\test\Teste_Logica_ViniciusSato\obj\Debug\net7.0\LogicaViniciusSato.csproj.AssemblyReference.cache
+C:\projetos\test\Teste_Logica_ViniciusSato\obj\Debug\net7.0\LogicaViniciusSato.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\test\Teste_Logica_ViniciusSato\obj\Debug\net7.0\LogicaViniciusSato.AssemblyInfoInputs.cache
+C:\projetos\test\Teste_Logica_ViniciusSato\obj\Debug\net7.0\LogicaViniciusSato.AssemblyInfo.cs
+C:\projetos\test\Teste_Logica_ViniciusSato\obj\Debug\net7.0\LogicaViniciusSato.csproj.CoreCompileInputs.cache
+C:\projetos\test\Teste_Logica_ViniciusSato\obj\Debug\net7.0\LogicaViniciusSato.dll
+C:\projetos\test\Teste_Logica_ViniciusSato\obj\Debug\net7.0\refint\LogicaViniciusSato.dll
+C:\projetos\test\Teste_Logica_ViniciusSato\obj\Debug\net7.0\LogicaViniciusSato.pdb
+C:\projetos\test\Teste_Logica_ViniciusSato\obj\Debug\net7.0\LogicaViniciusSato.genruntimeconfig.cache
+C:\projetos\test\Teste_Logica_ViniciusSato\obj\Debug\net7.0\ref\LogicaViniciusSato.dll
