@@ -1,4 +1,5 @@
 Documentação - Teste de Lógica :rocket:
+
 :mag_right: Visão Geral
 Este código implementa um programa com um menu de acesso e quatro funcionalidades diferentes. O usuário pode escolher uma opção do menu digitando o número correspondente. Cada opção do menu executa uma funcionalidade específica. As funcionalidades incluem cálculo de desconto em veículos, cálculo de média ponderada de notas de alunos, verificação de tipos de triângulo e recálculo de boletos de pagamento.
 
