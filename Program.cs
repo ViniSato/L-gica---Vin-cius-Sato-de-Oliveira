@@ -136,7 +136,6 @@ class Program
             } while (!codigoValido);
 
             double[] notas = ObterNotasAluno();
-
             double media = CalcularMediaPonderada(notas);
 
             Console.WriteLine();
